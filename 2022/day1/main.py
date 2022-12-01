@@ -10,4 +10,4 @@ print(f"Part 1 : {max(liste)}")
 
 # Part 2
 new_liste = sorted(liste)
-print(f"Part 2 : {sum(new_liste[::-1][:3])}")
+print(f"Part 2 : {sum(new_liste[::-1][:3])}") 
