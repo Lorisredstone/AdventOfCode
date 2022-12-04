@@ -8,7 +8,6 @@ def isnice(s:str) -> int:
         return 1
     return 0
 
-
 total = sum(isnice(string.split("\n")[0]) for string in file)
 print(f"part 1: {total}")
 
